@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-family: sans-serif;
+                background-color: aliceblue;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            h1{
+                margin: top 1px;;
+            }
+        </style>
+        <body>
+            <h1>Reset password page</h1>
+            <form action="/forgot" method="POST">
+                <label>Email</label>
+                <input type="email" name="email">
+
+                <label>Password</label>
+                <input type="password" name="password">
+                <button>Reset</button>
+
+            </form>
+        </body>
+    </head>
+</html>
